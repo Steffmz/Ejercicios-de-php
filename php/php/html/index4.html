@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="/css/index4.css" />
+  </head>
+  <body>
+    <form action="/php/actividad4.php" method="POST">
+      <h1>Calculadora</h1>
+      <label>Cédula del cliente:</label>
+      <input type="text" name="cedula" required />
+
+      <label>Nombre del cliente:</label>
+      <input type="text" name="nombre" required />
+
+      <label>Monto del credito:</label>
+      <input type="number" name="monto" step="0.01" required />
+
+      <label>Tasa de interes mensual (%):</label>
+      <input type="number" name="tasa" step="0.01" required />
+
+      <label>Plazo (en meses):</label>
+      <input type="number" name="plazo" required />
+
+      <button type="submit">Calcular</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad 1</title>
+  </head>
+
+  <body>
+    <h1>Calcular Nota Final</h1>
+    <form action="/php/actividad1.php" method="POST">
+      <label for="parcial1">Parcial 1:</label>
+      <input type="number" name="parcial1" id="parcial1" required /><br /><br />
+
+      <label for="parcial2">Parcial 2:</label>
+      <input type="number" name="parcial2" id="parcial2" required /><br /><br />
+
+      <label for="parcial3">Parcial 3:</label>
+      <input type="number" name="parcial3" id="parcial3" required /><br /><br />
+
+      <label for="examen_final">Examen Final:</label>
+      <input
+        type="number"
+        name="examen_final"
+        id="examen_final"
+        required
+      /><br /><br />
+
+      <label for="trabajo_final">Trabajo Final:</label>
+      <input
+        type="number"
+        name="trabajo_final"
+        id="trabajo_final"
+        required
+      /><br /><br />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
