@@ -53,6 +53,7 @@
         }
     </style>
 </head>
+
 <body>
     <form method="post" action="">
         <h1>Calculadora de Amortización</h1>
@@ -116,3 +117,4 @@
     ?>
 </body>
 </html>
+
